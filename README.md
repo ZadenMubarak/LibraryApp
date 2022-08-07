@@ -4,10 +4,8 @@ Basic library functionality
 
 # `save a book in the library`
 
-./save.png
+![Alt text](/save.png?raw=true "Title")
 
 ## `and also get`
 
-```png
-image.png
-```
+![Alt text](/add.png?raw=true "Title")
