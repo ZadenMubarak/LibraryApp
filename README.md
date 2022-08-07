@@ -4,12 +4,10 @@ Basic library functionality
 
 # `save a book in the library`
 
-```png
-image.png
-```
+./save.png
 
 ## `and also get`
 
 ```png
-image.pngcd 
+image.png
 ```
