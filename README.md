@@ -10,6 +10,8 @@ Basic library functionality
 
 ![Alt text](/add.png?raw=true "Title")
 
+` "Database example ({[]})"`
+
 ```db
 
 SELECT * FROM bookdb WHERE book =?
