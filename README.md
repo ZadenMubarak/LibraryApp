@@ -9,3 +9,9 @@ Basic library functionality
 ## `and also get`
 
 ![Alt text](/add.png?raw=true "Title")
+
+```db
+
+SELECT * FROM bookdb WHERE book =?
+
+```
