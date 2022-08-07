@@ -49,6 +49,7 @@ def search_book():
             canvas = Tk()
             canvas.title('Book list')
             canvas.geometry('400x550')
+            canvas.resizable(False, False)
             line = 10
             x_scale = 20
             for i in select:
