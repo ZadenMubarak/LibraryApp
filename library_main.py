@@ -41,7 +41,7 @@ def search_book():
 
     def get_book():
         book = search.get()
-        select = cur.execute(f'SELECT * FROM bookTable WHERE book=?', (book.upper(),)).fetchall()
+        select = cur.execute(f'SELECT * FROM bookTable WHERE book LIKE ?', (book.upper(),)).fetchall()
         if len(select) == 0:
             messagebox.showinfo('Not found', 'Sorry Book was not found'.title())
         else:
